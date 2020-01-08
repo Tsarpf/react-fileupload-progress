@@ -172,7 +172,7 @@ FileUploadProgress.defaultProps = {
   formRenderer: (onSubmit) => (
       <form className="_react_fileupload_form_content" ref="form" method="post" onSubmit={onSubmit}>
         <div>
-          <input type="file" name="file"/>
+          <input type="file" name="file" multiple/>
         </div>
         <input type="submit"/>
       </form>
